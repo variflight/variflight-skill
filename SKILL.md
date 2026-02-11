@@ -50,7 +50,7 @@ export VARIFLIGHT_API_KEY="sk-xxxxxxxxxxxxxxxx"
 
 ```bash
 # Clone or copy the skill
-git clone https://github.com/variflight-ai/variflight-skill.git
+git clone https://github.com/variflight/variflight-skill.git
 
 # Or copy to your project
 cp -r variflight-skill/scripts ./scripts

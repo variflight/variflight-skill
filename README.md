@@ -13,7 +13,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/variflight-ai/variflight-skill.git
+git clone https://github.com/variflight/variflight-skill.git
 cd variflight-skill
 
 # 或使用特定目录
@@ -106,6 +106,9 @@ openclaw skill install variflight
 
 # 或手动安装到 workspace
 cp -r variflight-skill ~/.openclaw/workspace/skills/variflight
+
+# Or create symlink for development
+ln -s $(pwd)/variflight-skill ~/.openclaw/workspace/skills/variflight
 ```
 
 **配置方式：**
